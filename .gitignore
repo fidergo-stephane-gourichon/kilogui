@@ -4,3 +4,10 @@ debian/kilogui.debhelper.log
 members
 src/Makefile
 *~
+*.o
+moc_*.cpp
+debian/.debhelper
+debian/kilogui
+src/kilogui
+src/qrc_kilogui.cpp
+moc_*.h
