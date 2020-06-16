@@ -1,4 +1,7 @@
 #include <QtGui>
+#if QT_VERSION >= 0x050000
+#include <QtWidgets>
+#endif
 #include "calibrate.h"
 
 CalibWindow::CalibWindow(QString title, QWidget *parent): QWidget(parent) {
