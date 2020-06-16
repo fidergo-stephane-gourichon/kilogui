@@ -2,6 +2,8 @@ TEMPLATE = app
 TARGET = kilogui
 LIBS += -lftdi -lusb
 
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
+
 RESOURCES = kilogui.qrc
 RC_FILE = kilogui.rc
 mac:ICON = images/kilogui.icns
